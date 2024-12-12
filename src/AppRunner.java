@@ -33,6 +33,7 @@ public class AppRunner {
     }
 
     private void startSimulation() {
+        BankCard bc=new BankCard();
         print("В автомате доступны:");
         showProducts(products);
 
